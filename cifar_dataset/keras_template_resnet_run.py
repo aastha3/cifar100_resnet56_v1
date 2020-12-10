@@ -1,16 +1,4 @@
-"""
-11182 :running , 14279 : killed , 17788 : log_c100_r56_ep200.txt
-To do 
-1. log loss in an array and print it at the end 
-2. log train accuracy 
-3. log test accuracy 
-4. 
-"""
-
-
-# Model parameter
-# https://keras.io/zh/examples/cifar10_resnet/
-# ----------------------------------------------------------------------------
+#----------------------------
 #           |      | 200-epoch | Orig Paper| 200-epoch | Orig Paper| sec/epoch
 # Model     |  n   | ResNet v1 | ResNet v1 | ResNet v2 | ResNet v2 | GTX1080Ti
 #           |v1(v2)| %Accuracy | %Accuracy | %Accuracy | %Accuracy | v1 (v2)
