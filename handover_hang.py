@@ -42,7 +42,7 @@ def scheduler(epoch, lr):
         return lr * tf.math.exp(-0.1)
     
 lr_callback = tf.keras.callbacks.LearningRateScheduler(scheduler)
-
+log_dir = "logs/fit/" + datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
 
 class PrintLR(tf.keras.callbacks.Callback):
       def on_epoch_end(self, epoch, logs=None):
